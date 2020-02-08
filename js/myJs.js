@@ -36,7 +36,7 @@ function firstQuestion(){
     var topY = $('#yes').css("top");
     $('#no').css("left", leftY);
     $('#no').css("top", topY);
-    $('#yes').css("left", leftNo);
+    $('#yes').css({'left':'50%','transform':'translateX(-50%)'});
     $('#yes').css("top", topNO);
 }
 // move random button póition
