@@ -34,7 +34,7 @@ function firstQuestion(){
     var topNO = $('#no').css("top");
     var leftY = $('#yes').css("left");
     var topY = $('#yes').css("top");
-    $('#no').css("left", leftY);
+    $('#no').css({'left':leftY,'transform':'none'});
     $('#no').css("top", topY);
     $('#yes').css({'left':'50%','transform':'translateX(-50%)'});
     $('#yes').css("top", topNO);
